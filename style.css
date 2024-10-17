@@ -1,0 +1,30 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color:black;
+}
+.container{
+    height:200px;
+    width:calc(200px*3/2);
+    margin:2em auto;
+    display:flex;
+}
+/* the comments are present because it
+looks like that white part is thinner as
+compared to red and green parts but it's
+not, it's just an optical illusion.
+All the rectangles are of same size. */
+.white{
+    background-color: white;
+    width:100px; /* half of the height of the flag(container) or height of red and green parts . */
+}
+.red{
+    height:50%;
+    width:200px; /* height of the white part or flag(container). */
+    background-color: #FC3E32;
+}
+.green{
+    height:50%;
+    width:200px; /* height of the white part or flag(container). */
+    background-color: #007E39;
+}
